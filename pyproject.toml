@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 jupyter = "^1.0.0"
+holidays = "^0.37"
 
 
 [build-system]

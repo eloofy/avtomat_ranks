@@ -516,6 +516,20 @@ files = [
 ]
 
 [[package]]
+name = "holidays"
+version = "0.37"
+description = "Generate and work with holidays in Python"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "holidays-0.37-py3-none-any.whl", hash = "sha256:5b8ff8c94c06e3b225762d495e51b8e51205d332f8ad092aab809c4bffa8d123"},
+    {file = "holidays-0.37.tar.gz", hash = "sha256:712df71a8d97b04554fa1c9208d219fbf174bad2864263bef24c6dcfa1ded6ff"},
+]
+
+[package.dependencies]
+python-dateutil = "*"
+
+[[package]]
 name = "idna"
 version = "3.6"
 description = "Internationalized Domain Names in Applications (IDNA)"
@@ -2127,4 +2141,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "7ef02d7c6b3b6431c907b827d68fe279b252a73226819a0ab0f4f0e7661b327d"
+content-hash = "cc362c8aae7c01dbc6bc09c7ac3ef583286556cdcd34e69a49c886bcd15be67a"
